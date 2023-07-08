@@ -193,3 +193,7 @@ body {
   ::-webkit-scrollbar-track {
     background-color: #3a3a3a; /* Hintergrundfarbe der Scrollbar */
   }
+
+body {
+    overflow-x: hidden;
+}

@@ -196,4 +196,5 @@ body {
 
 body {
     overflow-x: hidden;
+    min-width: 1080px;
 }

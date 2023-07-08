@@ -56,6 +56,7 @@ a {
 #main-nav ul li a:hover {
     background-color: coral;
     border-radius: 60px;
+
 }
 
 #main-nav::after {
@@ -90,6 +91,7 @@ body {
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 1.0);
 }
 
+
 .main-text::after {
     content: "";
     display: block;
@@ -108,19 +110,25 @@ body {
     margin: 0 auto;
     background-color: #3a3a3a;
     border-radius: 20px;
-    box-shadow: 2px 2px 4px rgba(0, 0, 0, 1.0);
+    transition: 0.5s;
     
+    
+}
+
+.lang:hover {
+    box-shadow: 2px 4px 8px rgba(0, 0, 0, 1.0);
 }
 
 
 .lang img {
     margin-top: 30px;
-    height: 100px; /* Optional: Setze die Höhe der Bilder auf eine gewünschte Größe */
+    height: 100px;
 }
 
 #py {
     margin-left: 100px;
 }
+
 
 #rust {
     margin-left: 100px;
@@ -148,7 +156,11 @@ body {
     min-width: 1080px;
     background-color: #3a3a3a;
     margin-bottom: 30px;
-    box-shadow: 2px 2px 4px rgba(0, 0, 0, 1.0);
+    transition: 0.5s;
+}
+
+.code-img:hover {
+    box-shadow: 2px 4px 8px rgba(0, 0, 0, 1.0);
 }
 
 .code-img img{

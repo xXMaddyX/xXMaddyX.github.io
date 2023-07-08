@@ -197,27 +197,3 @@ body {
 body {
     overflow-x: hidden;
 }
-
-/* Allgemeine CSS-Regeln für alle Geräte */
-
-/* CSS-Regeln für Geräte mit einer maximalen Breite von 768px (Tablets und Mobiltelefone) */
-@media (max-width: 768px) {
-    .standard-container {
-        max-width: 90%; /* Beispiel: Verringere die Containerbreite auf 90% */
-    }
-
-    .lang {
-        min-width: 100%; /* Beispiel: Setze die Mindestbreite des Elements auf 100% */
-    }
-
-    .lang img {
-        height: 80px; /* Beispiel: Verringere die Höhe der Bilder auf 80px */
-    }
-    
-    /* Weitere spezifische CSS-Regeln für mobile Geräte hier einfügen */
-}
-
-/* CSS-Regeln für Geräte mit einer maximalen Breite von 480px (kleinere Mobiltelefone) */
-@media (max-width: 480px) {
-    /* Spezifische CSS-Regeln für kleinere mobile Geräte hier einfügen */
-}

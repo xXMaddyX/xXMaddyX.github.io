@@ -50,6 +50,7 @@ a {
     text-align: center;
     margin: auto;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 1.0);
+    transition: .3s;
 } 
 
 #main-nav ul li a:hover {

@@ -55,7 +55,6 @@ a {
 #main-nav ul li a:hover {
     background-color: coral;
     border-radius: 60px;
-
 }
 
 #main-nav::after {

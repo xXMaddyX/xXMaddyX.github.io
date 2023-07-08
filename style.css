@@ -197,16 +197,3 @@ body {
 body {
     overflow-x: hidden;
 }
-
-
-/* Allgemeine CSS-Regeln für alle Geräte */
-
-/* CSS-Regeln für Geräte mit einer maximalen Breite von 768px (Tablets und Mobiltelefone) */
-@media (max-width: 768px) {
-    /* Spezifische CSS-Regeln für mobile Geräte hier einfügen */
-}
-
-/* CSS-Regeln für Geräte mit einer maximalen Breite von 480px (kleinere Mobiltelefone) */
-@media (max-width: 480px) {
-    /* Weitere spezifische CSS-Regeln für kleine mobile Geräte hier einfügen */
-}

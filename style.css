@@ -51,7 +51,7 @@ body {
 
 .main {
     min-height: 100vh;
-    background: url('/img/pexels-photo-707915.jpeg') no-repeat;
+    background: url('pexels-photo-707915.jpeg') no-repeat;
     background-size: cover;
     background-position: center;
     pointer-events: auto;
@@ -203,7 +203,7 @@ body {
 }
 
 .quiz-section {
-    background: url('/img/IMG_9771.png') no-repeat;
+    background: url('IMG_9771.png') no-repeat;
     background-size: cover;
     background-position: center;
     position: relative;

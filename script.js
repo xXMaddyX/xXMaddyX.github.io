@@ -7,6 +7,8 @@ const quizSection = document.querySelector('.quiz-section');
 const quizBox = document.querySelector('.quiz-box');
 const resultBox = document.querySelector('.result-box');
 const tryAgainBtn = document.querySelector('.tryAgain-btn');
+const giftBtn = document.querySelector('.win-btn')
+const giftBox = document.querySelector('.code-popup')
 
 
 startBtn.onclick = () => {
@@ -35,6 +37,10 @@ continueBtn.onclick = () => {
     showQuestions(0);
     questionCounter(1);
     headerScore();
+}
+
+giftBtn.onclick = () => {
+    giftBox.classList.add('active');
 }
 
 let questionCount = 0;
@@ -124,6 +130,10 @@ function showResultBox() {
     const scoreText = document.querySelector('.score-text');
     scoreText.textContent = `Deine Punkte ${userScore} von ${questions.length}`;
 
+    if (userScore == 5) {
+        giftBtn.classList.add('active');
+    }
+
 }
 
 
@@ -131,6 +141,8 @@ function resetQuiz() {
     quizSection.classList.remove('active');
     resultBox.classList.remove('active');
     quizBox.classList.remove('active');
+    giftBox.classList.remove('active');
+    giftBtn.classList.remove('active')
 
     questionCount = 0;
     questionNumb = 1;

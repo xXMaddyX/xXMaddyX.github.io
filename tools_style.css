@@ -31,6 +31,7 @@ body {
 
 .content .menue-left button {
     background-color: rgba(216, 196, 20, 0.692);
+    color: black;
     font-size: 20px;
     font-weight: 600;
     min-width: 100px;
@@ -38,7 +39,7 @@ body {
     height: 60px;
     box-shadow: 2px 4px 4px rgba(0, 0, 0, 0.6);
     cursor: pointer;
-    border: 2px solid;
+    border: 2px solid black;
     border-radius: 10px;
     transition: .8s;
 }

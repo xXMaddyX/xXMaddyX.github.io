@@ -70,6 +70,7 @@ body {
 }
 
 .center button {
+    color: black;
     display: flex;
     flex-direction: column;
     margin-top: 20px;
@@ -83,6 +84,7 @@ body {
     padding: 10px;
     cursor: pointer;
     transition: .5s;
+    border: 2px solid black;
 }
 
 .center button:hover {
@@ -159,6 +161,8 @@ body {
     background-color: rgba(255, 255, 0, 0.39);
     margin: 10px;
     font-size: 15px;
+    color: black;
+    border: 2px solid black;
 }
 
 .center .center-field .umrechnung-btn button:hover {
@@ -170,6 +174,8 @@ body {
     flex-direction: column;
     justify-content: flex-end;
     margin: 50px;
+    color: black;
+    border: 2px solid black;
     transition: 1s;
 }
 

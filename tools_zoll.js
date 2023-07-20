@@ -17,18 +17,20 @@ ZollRechnerClose.onclick = () => {
 }
 
 InCmBtn.onclick = () => {
-    let inp = document.querySelector('.zoll-popup-inp').value;
+    let inp_main = document.querySelector('.zoll-popup-inp').value;
+    inp = inp_main.replace(",", ".")
     result = inp * 2.54
     finalResult = result.toFixed(2)
-    document.querySelector('.result').innerHTML = `${inp}Zoll sind ${finalResult}cm`;
+    document.querySelector('.result').innerHTML = `${inp.replace(".", ",")}Zoll sind ${finalResult.replace(".", ",")}cm`;
     document.querySelector('.zoll-popup-inp').value = "";
 }
 
 
 InZollBtn.onclick = () => {
-    let inp = document.querySelector('.zoll-popup-inp').value;
+    let inp_main = document.querySelector('.zoll-popup-inp').value;
+    inp = inp_main.replace(",", ".")
     result = inp / 2.54
     finalResult = result.toFixed(2)
-    document.querySelector('.result').innerHTML = `${inp}cm sind ${finalResult}Zoll`;
+    document.querySelector('.result').innerHTML = `${inp.replace(".", ",")}cm sind ${finalResult.replace(".", ",")}Zoll`;
     document.querySelector('.zoll-popup-inp').value = "";
 }

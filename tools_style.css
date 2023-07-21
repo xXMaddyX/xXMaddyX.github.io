@@ -105,6 +105,7 @@ body {
     border-radius: 10px;
     text-shadow: 4px 6px 6px rgba(0, 0, 0, 0.6);
     transition: 1s;
+    pointer-events: none;
 }
 
 .center .center-field .zoll-popup.active {
@@ -120,6 +121,7 @@ body {
     border: 2px solid;
     border-radius: 10px;
     text-shadow: 4px 6px 6px rgba(0, 0, 0, 0.6);
+    pointer-events: auto;
 }
 
 

@@ -43,6 +43,13 @@
 .tech-heading-item {
     opacity: 0;
     animation: elementFadeIn 1s ease forwards;
+    transition: 0.3s;
+    display: block;
+    cursor: pointer;
+}
+
+.tech-heading-item:hover {
+    transform: scale(1.3);
 }
 
 .tech-heading-item:nth-child(1) {animation-delay: 1s;}

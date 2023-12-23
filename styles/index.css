@@ -1,0 +1,86 @@
+@import url("./basic.css");
+
+.greeting {
+    grid-area: greeting;
+    font-size: 1.3rem;
+    animation: slideInRight 1s ease-out;
+}
+
+.greeting h3 {
+    animation: fadeIn 3s ease-in;
+}
+
+.main-greeting {
+    display: grid;
+    grid-template-areas: "greeting";
+    background-color: var(--secondBackgroundColor);
+    padding: 20px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    text-align: center;
+}
+
+.main-content {
+    display: grid;
+    text-align: center;
+    grid-template-columns: 1fr;
+    background-color: var(--basicBackgroundColor);
+    padding: 20px;
+    animation: slideInLeft 1s ease-out;
+}
+
+.main-content h1 {
+    padding-bottom: 50px;
+}
+
+.tech-heading {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-row-gap: 10px;
+}
+
+.tech-heading-item {
+    opacity: 0;
+    animation: elementFadeIn 1s ease forwards;
+}
+
+.tech-heading-item:nth-child(1) {animation-delay: 1s;}
+.tech-heading-item:nth-child(2) {animation-delay: 1.5s;}
+.tech-heading-item:nth-child(3) {animation-delay: 2s;}
+.tech-heading-item:nth-child(4) {animation-delay: 2.5s;}
+.tech-heading-item:nth-child(5) {animation-delay: 3s;}
+.tech-heading-item:nth-child(6) {animation-delay: 3.5s;}
+.tech-heading-item:nth-child(7) {animation-delay: 4s;}
+.tech-heading-item:nth-child(8) {animation-delay: 4.5s;}
+.tech-heading-item:nth-child(9) {animation-delay: 5s;}
+
+.philosophie-text {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    grid-area: philosophie;
+    font-size: 1.2rem;
+}
+
+.philosophie {
+    display: grid;
+    grid-template-areas: "philosophie";
+    background-color: var(--secondBackgroundColor);
+    padding: 20px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    text-align: center;
+    animation: fadeIn 3s ease-in;
+}
+
+.end-img {
+    width: 6rem;
+    padding: 0px;
+    margin: 0px;
+    align-self: center;
+}
+
+.img {
+    width: 80px;
+}

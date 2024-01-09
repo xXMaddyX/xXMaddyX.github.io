@@ -37,8 +37,8 @@
     display: grid;
     margin-right: 20%;
     margin-left: 20%;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
     grid-row-gap: 10px;
 }
 
@@ -74,6 +74,16 @@
     font-size: 1.2rem;
 }
 
+.fade-in {
+    opacity: 1;
+    transition: opacity 1s ease-out;
+}
+
+.fade-out {
+    opacity: 0;
+    transition: opacity 0.5s ease-out;
+}
+
 .philosophie {
     display: grid;
     grid-template-areas: "philosophie";
@@ -82,7 +92,6 @@
     padding-top: 50px;
     padding-bottom: 50px;
     text-align: center;
-    animation: fadeIn 3s ease-in;
 }
 
 .end-img {

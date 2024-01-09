@@ -27,3 +27,31 @@ const executAnimation = async () => {
 }
 
 executAnimation()
+
+document.addEventListener('DOMContentLoaded', function() {
+    var options = {
+        root: null,
+        rootMargin: '0px',
+        threshold: 0.1
+    };
+
+    var observerCallback = (entries, observer) => {
+        entries.forEach(entry => {
+            if (entry.isIntersecting) {
+                entry.target.classList.add('fade-in');
+                entry.target.classList.remove('fade-out');
+            } else {
+                entry.target.classList.remove('fade-in');
+                entry.target.classList.add('fade-out');
+            }
+        });
+    };
+
+    var observer = new IntersectionObserver(observerCallback, options);
+    var elements = document.querySelectorAll('.philosophie-text > *');
+
+    elements.forEach(el => {
+        observer.observe(el);
+    });
+});
+

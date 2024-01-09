@@ -35,6 +35,7 @@
     --basicTextColor: black;
     --basicBackgroundColor: gray;
     --secondBackgroundColor: rgb(190, 190, 190);
+    --boxShadow: 2px 2px 8px black;
 
     /*<----Line Color---->*/
     --lineStyle: linear-gradient(90deg, rgba(0,0,0,0.8004640371229699) 0%, rgba(255,255,255,0.8004640371229699) 29%, rgba(0,0,0,0.7935034802784222) 64%, rgba(255,255,255,0.802784222737819) 100%);

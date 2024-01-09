@@ -1,1 +1,30 @@
 @import url("./basic.css");
+
+.main {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+.main-content {
+    margin: 50px;
+    margin-left: 20%;
+    margin-right: 20%;
+    padding: 20px;
+    border: 1px solid black;
+    background: var(--basicBackgroundColor);
+    box-shadow: var(--boxShadow);
+    border-radius: 20px;
+    display: grid;
+    align-items: center;
+    text-align: center;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 10px;
+}
+
+.main-content-text {
+    filter: drop-shadow(2px 2px 8px black);
+}
+
+.main-content-sub img {
+    max-width: 100%;
+}

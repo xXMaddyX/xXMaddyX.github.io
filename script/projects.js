@@ -28,18 +28,29 @@ document.addEventListener('DOMContentLoaded', () => {
         img.src = imageUrl;
         return img;
     };
+
+    const linking = (linkUrl) => {
+        const link = document.createElement('a')
+        link.href = linkUrl;
+        link.textContent = ">>Hier gehts zum Projekt<<"
+        return link
+    }
     
-    const makeElement = (selectedElement, divClass, headingText, paraText, imgUrl) => {
+    const makeElement = (selectedElement, divClass, headingText, paraText, imgUrl, linkUrl) => {
         const container = divContainer(divClass);
         const textContainer = divContainer(divClass + "-text")
         const subContainer = divContainer(divClass + "-sub");
         const heading = headingContainer(headingText);
         const paragrapth = para(paraText);
         const img = image(imgUrl);
+        const link = linking(linkUrl)
     
         textContainer.appendChild(heading);
         textContainer.appendChild(paragrapth);
+        textContainer.appendChild(link);
         subContainer.appendChild(img);
+        
+
     
         container.appendChild(textContainer);
         container.appendChild(subContainer);
@@ -47,13 +58,13 @@ document.addEventListener('DOMContentLoaded', () => {
     };
     
     textData.forEach(item => {
-        makeElement(main, "main-content", item.projectHeader, item.text, item.imgSrc);
+        makeElement(main, "main-content", item.projectHeader, item.text, item.imgSrc, item.projektLink);
     });
 
     let options = {
         root: null,
         rootMargin: '0px',
-        threshold: 0.1
+        threshold: 0.2
     }
 
     const callback = (entries, observer) => {

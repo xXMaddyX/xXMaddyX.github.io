@@ -29,3 +29,14 @@ export const textData = [
     imgSrc: "https://lh3.googleusercontent.com/pw/ABLVV87jhBlsqDmcQxHI6AEMhjd5Jf5I7UKTXd_uHAqw9P6fWYEPPw4BtMwH0SXCD0pP7bcdfLf2AZdGLFYTb8Cz8LsYcqnhqzqv8oO0y7B8d3tqBxCq5ApPtFMz0rLjh5Yu6cPc98XqLG5TKuj2XCZ1L0hV=w918-h761-s-no-gm?authuser=0",
     projektLink: "https://www.bibelgame.de/"},
 ]
+
+export const infoText = {
+    fotoSection: {
+        fotoLink: "https://lh3.googleusercontent.com/pw/ABLVV86PmNS9H0UtFkspv6DPE9h_9R-f3Qk13vzmTuyl_2nfxelUBvu_BX-_vwcKG3Ceq84ZowHiFa6yrTXAstwqstuyO7oHmKUrtOn6HvzN_w11J8I598FNaDLUc4VDjHjrN27Klrwjl9mxmpzrwDW5I53f=w598-h797-s-no-gm?authuser=0",
+        fotoHeading: `Infos Über Mich`,
+        fotoText: [
+            {text: "Bla Bla"},
+            {text: "Schalala"},
+        ]
+    }
+}

@@ -1,0 +1,29 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: header;
+    src: url('../fonts/BungeeShade-Regular.ttf');
+}
+
+@font-face {
+    font-family: mainText;
+    src: url('../fonts/BungeeSpice-Regular.ttf');
+}
+
+:root {
+    /*Background Colors*/
+    --mainBackgroundColor: black;
+
+    /*Fonts*/
+    --headingFont: header;
+    --textFont: mainText;
+}
+
+body {
+    background: rgb(0, 0, 0);
+    overflow-x: hidden;
+}

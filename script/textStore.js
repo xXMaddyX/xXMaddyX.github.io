@@ -4,6 +4,11 @@ export const textData = [
     imgSrc: "https://lh3.googleusercontent.com/pw/ABLVV87jhBlsqDmcQxHI6AEMhjd5Jf5I7UKTXd_uHAqw9P6fWYEPPw4BtMwH0SXCD0pP7bcdfLf2AZdGLFYTb8Cz8LsYcqnhqzqv8oO0y7B8d3tqBxCq5ApPtFMz0rLjh5Yu6cPc98XqLG5TKuj2XCZ1L0hV=w918-h761-s-no-gm?authuser=0",
     projektLink: "https://www.bibelgame.de/"},
 
+    {projectHeader: "The Sun",
+    text: "ein Kleines Demo Projekt (Work in Progress)",
+    imgSrc: "https://lh3.googleusercontent.com/pw/ABLVV87M2QoAlOeUA92w_npQXI0z4QI4D1Pf3vCyMgC--e8dTMrKSQVDYrUbxARNtygGK7DXZxu98wxNNagXl9_Za2R8b1Mz5WaF5-x4cIy3c0AuEzfGoyyT3QUhnTUyED0PTKAkPHQ6o0TlXCmToHEVrAhv=w1185-h825-s-no-gm?authuser=0",
+    projektLink: "../demoprojects/TheSun/sonne.html"},
+
     {projectHeader: "3D Moddeling",
     text: "3D Icon Moddeling in Blender und Babylon.js ",
     imgSrc: "https://lh3.googleusercontent.com/pw/ABLVV87wcr9nsJii1EfWInloIphLvoaujYQxBX2YiQDQw6bi4YcfgjfmG8O5BFVGlyEAFe6Ho81ruEFT7QDsJIypB-s1EtGvJb9Guklv5AqKOvxPenT6MDxLuNzUBgG1U8kqarqtbeeq-3IdLGN6aBEoAiJL=w1024-h678-s-no-gm?authuser=0",

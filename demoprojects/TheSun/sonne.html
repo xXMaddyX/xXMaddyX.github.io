@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="./styles/index.css">
+</head>
+<body>
+    <header class="header">
+        <nav class="navigation">
+            <div class="spacer">
+            </div>
+            <div class="center">
+                <h1>The Sun</h1>
+                <h1>Work in Progress</h1>
+            </div>
+            <div class="burger-button">
+                <div class="burger-line burger-line1"></div>
+                <div class="burger-line burger-line2"></div>
+                <div class="burger-line burger-line3"></div>
+                <ul class="navlist-burger">
+                    <li class="navlist-item welcome">Home</li>
+                    <li class="navlist-item alt-testament">Content</li>
+                    <li class="navlist-item">About</li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <div class="line"></div>
+    <main class="main">
+        <div class="layer1">
+            <div class="circle1">
+                <div class="layer2">
+                    <div class="circle2">
+                        <div class="layer3">
+                            <div class="circle3">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </main>
+        <div class="line"></div>
+        <footer class="footer">
+    
+        </footer>
+    <script src="./scripts/index.js" type="module"></script>
+    <svg>
+        <filter id="turbulence" x="0" y="0" width="100%" height="100%">
+            <feTurbulence id="sea-filter" numOctaves="3" seed="2" baseFrequency="0.02 0.05"></feTurbulence>
+            <feDisplacementMap scale="20" in="SourceGraphic"></feDisplacementMap>
+            <animate xlink:href="#sea-filter" attributeName="baseFrequency" dur="60s" keyTimes="0;0.5;1" values="0.02 0.06;0.04 0.08;0.02 0.06" repeatCount="indefinite"></animate>
+        </filter>
+    </svg>
+</body>
+</html>

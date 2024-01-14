@@ -1,0 +1,127 @@
+@import url('./basic.css');
+
+.header {
+    display: grid;
+    padding: 10px;
+    align-items: center;
+    text-align: center;
+    grid-template-columns: 1fr;
+}
+.header h1 {
+    font-family: var(--headingFont);
+    font-size: 1.5rem;
+    color: yellow;
+}
+
+.navigation {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: center;
+    z-index: 100;
+}
+
+.burger-button {
+    display: flex;
+    position: relative;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-around;
+    background: rgba(255, 255, 255, 0);
+    border: 1px solid yellow;
+    box-shadow: 2px 2px 8px yellow;
+    width: 50px;
+    height: 50px;
+    border-radius: 10px;
+    justify-self: end;
+    margin-right: 10%;
+}
+
+.burger-button:hover {
+    box-shadow: 2px 2px 8px yellow ,0px 0px 15px yellow inset;
+}
+
+.burger-line {
+    background-color: yellow;
+    height: 2px;
+    width: 30px;
+    z-index: 100;
+}
+
+.burger-button.burger-active {
+    border-radius: 10px;
+    box-shadow: 2px 2px 8px yellow ,0px 0px 15px yellow inset;
+
+}
+
+.burger-line1 {
+    transition: .3s;
+}
+
+.burger-button.burger-active .burger-line1{
+    opacity: 0;
+}
+
+.burger-line2 {
+    transition: .3s;
+}
+
+.burger-button.burger-active .burger-line2{
+    transform: rotate(360deg);
+}
+
+.burger-line3 {
+    transition: .3s;
+}
+
+.burger-button.burger-active .burger-line3{
+    opacity: 0;
+}
+
+.navlist-burger {
+    font-family: var(--textFont);
+    display: none;
+    list-style: none;
+    padding: 10px;
+    text-align: center;
+    position: absolute;
+    top: 100%;
+    margin-top: 10px;
+    width: 200px;
+    z-index: 100;
+    left: -140px;
+}
+
+.navlist-burger.active {
+    display: block;
+    animation: slideInRight .3s;
+}
+
+.navlist-burger a {
+    font-family: var(--textFont);
+}
+
+.navlist-item {
+    cursor: pointer;
+    margin-top: 5px;
+    font-size: 20px;
+}
+
+.navlist-item:hover {
+    text-shadow: 2px 2px 10px yellow;
+}
+
+@keyframes slideInRight {
+    0% {
+        left: 60px;
+    }
+    100% {
+        left: -140px
+    }
+}
+
+@media (max-width: 750px) {
+    .navigation {
+        display: grid;
+        grid-template-columns: .1fr 4fr 1fr;
+    }
+}

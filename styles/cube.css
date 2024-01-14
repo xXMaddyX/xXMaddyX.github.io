@@ -22,6 +22,7 @@
     height: 100px;
     background: rgba(68, 68, 68, 0.9);
     border: 1px solid #ccc;
+    transition: 2s;
 }
 
 .cube1 .front  { transform: translateZ(100px); transition: 2s;}
@@ -39,7 +40,6 @@
     animation-timing-function: linear;
     transition: .3s;
 }
-
 
 .cube1.active .front {
     transform: translateZ(50px)
@@ -61,7 +61,7 @@
 }
 
 .cube1.flipp .face {
-    transform: translateX(-150px) rotateY(90deg) rotateZ(-360deg);
+    transform: translateX(-150px) rotateY(90deg);
 }
 
 .cube1.flipp .front {

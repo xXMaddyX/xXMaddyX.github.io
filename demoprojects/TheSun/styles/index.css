@@ -1,0 +1,66 @@
+@import url('./basic.css');
+@import url('./heading.css');
+
+.line {
+    margin: 5px;
+    height: 2px;
+    width: 70%;
+    background-color: rgb(98, 255, 98);
+    box-shadow: 0px 2px 8px yellow;
+}
+
+.main {
+    display: grid;
+    grid-template-columns: 1fr;
+    height: 80vh;
+    width: 100vw;
+}
+
+
+.circle1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 450px;
+    width: 450px;
+    border-radius: 100%;
+    background-color: rgb(255, 51, 0);
+    box-shadow: 0px 0px 10px red, 10px 10px 50px red, -10px -10px 50px red;
+}
+
+.circle2 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 445px;
+    width: 445px;
+    border-radius: 100%;
+    background-color: rgb(255, 123, 0);
+    box-shadow: 0px 0px 10px red , 10px 10px 10px red inset, -10px -10px 10px red inset;
+}
+
+.circle3 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 380px;
+    width: 380px;
+    border-radius: 100%;
+    background-color: rgb(255, 238, 0);
+    box-shadow: 0px 0px 10px orange , 10px 10px 10px orange inset, -10px -10px 10px orange;
+}
+
+.circle1, .circle2, .circle3 {
+    filter: url("#turbulence");
+}
+
+svg {
+    position: absolute;
+    width: 0;
+    height: 0;
+    visibility: hidden;
+}
+

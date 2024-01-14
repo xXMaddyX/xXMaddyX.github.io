@@ -2,7 +2,6 @@ import { infoText } from './textStore.js'
 
 const fotoContainerFoto = document.querySelector('.picture');
 const fotoContainerText = document.querySelector('.info');
-const textContainer = document.querySelector('.texting');
 
 const flipFoto = () => {
     const foto = document.querySelector('.info-foto');
@@ -26,7 +25,7 @@ const createPictureContainer = (fotoLink, fotoHeading, fotoText) => {
     });
 };
 
-export const startCube = () => {
+const startCube = () => {
     const activeCube = document.querySelector(".cube1")
     
     document.addEventListener('click', (event) => {

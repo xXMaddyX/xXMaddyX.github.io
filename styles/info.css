@@ -43,16 +43,19 @@
     align-items: center;
     perspective: 3000px;
     filter: drop-shadow(2px 2px 10px black);
+    animation: slideInRight 1s ease-out;
 }
 
 .info {
     display: flex;
     padding: 5%;
     flex-direction: column;
+    animation: slideInLeft 1s ease-out;
 }
 
 .info h1 {
     margin-bottom: 20px;
+    animation: slideInLeft 1s ease-out;
 }
 
 .info h3 {

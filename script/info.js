@@ -28,7 +28,7 @@ const createPictureContainer = (fotoLink, fotoHeading, fotoText) => {
 const main = () => {
     createPictureContainer(infoText.fotoSection.fotoLink, infoText.fotoSection.fotoHeading, infoText.fotoSection.fotoText);
 
-    setTimeout(flipFoto, 3000);
+    setTimeout(flipFoto, 2000);
 };
 
 main();

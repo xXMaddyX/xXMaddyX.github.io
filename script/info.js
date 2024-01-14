@@ -26,7 +26,7 @@ const createPictureContainer = (fotoLink, fotoHeading, fotoText) => {
     });
 };
 
-const startCube = () => {
+export const startCube = () => {
     const activeCube = document.querySelector(".cube1")
     
     document.addEventListener('click', (event) => {

@@ -7,8 +7,8 @@
 
 .personal-info {
     display: grid;
-    margin-left: 20%;
-    margin-right: 20%;
+    margin-left: 15%;
+    margin-right: 15%;
     margin-top: 50px;
     grid-template-columns: repeat(2, 1fr);
     text-align: center;

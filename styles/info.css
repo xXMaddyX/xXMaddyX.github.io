@@ -118,6 +118,7 @@
     height: 500px;
     grid-template-columns: repeat(1, 1fr);
     perspective: 2000px;
+    animation: slideInLeft 2s ease-in;
 }
 
 .cube1 {

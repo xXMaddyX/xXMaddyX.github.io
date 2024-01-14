@@ -11,7 +11,6 @@
     flex-direction: column;
     align-items: center;
     margin-top: 50px;
-    margin-bottom: 30px;
 }
 
 .content h3 {
@@ -20,4 +19,9 @@
 
 .content h3 a {
     text-decoration: underline;
+}
+
+.cube-box {
+    margin-top: 50px;
+    margin-bottom: 50px;
 }

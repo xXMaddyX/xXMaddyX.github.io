@@ -1,6 +1,6 @@
 .cube-box {
     display: grid;
-    height: 500px;
+    height: 400px;
     grid-template-columns: repeat(1, 1fr);
     perspective: 2000px;
     animation: slideInLeft 2s ease-in;
@@ -61,26 +61,26 @@
 }
 
 .cube1.flipp .face {
-    transform: translateX(-250px) rotateY(90deg) rotateZ(-360deg);
+    transform: translateX(-150px) rotateY(90deg) rotateZ(-360deg);
 }
 
 .cube1.flipp .front {
-    transform: translateZ(250px) rotateY(180deg) rotateX(360deg);
+    transform: translateZ(150px) rotateY(180deg) rotateX(360deg);
 }
 .cube1.flipp .back {
-    transform: rotateY(180deg) translateZ(250px) rotateX(360deg);
+    transform: rotateY(180deg) translateZ(150px) rotateX(360deg);
 }
 .cube1.flipp .right {
-    transform: rotateY(90deg) translateZ(250px) rotateX(360deg);
+    transform: rotateY(90deg) translateZ(150px) rotateX(360deg);
 }
 .cube1.flipp .left {
-    transform: rotateY(-90deg) translateZ(250px rotateX(360deg));
+    transform: rotateY(-90deg) translateZ(150px rotateX(360deg));
 }
 .cube1.flipp .top {
-    transform: rotateX(90deg) translateZ(250px) rotateX(360deg);
+    transform: rotateX(90deg) translateZ(150px) rotateX(360deg);
 }
 .cube1.flipp .bottom {
-    transform: rotateX(-90deg) translateZ(250px) rotateX(360deg);
+    transform: rotateX(-90deg) translateZ(150px) rotateX(360deg);
 }
 
 @keyframes rotate {

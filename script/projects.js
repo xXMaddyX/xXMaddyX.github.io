@@ -4,7 +4,7 @@ document.addEventListener('DOMContentLoaded', () => {
     //<--------Element Creator------------------->
     const main = document.querySelector('.main')
     
-    //Creates an div container with desired Class
+//<----------Creates an div container with desired Class------>
     const divContainer = (classType) => {
         const container = document.createElement('div');
         container.classList.add(classType);
@@ -61,6 +61,8 @@ document.addEventListener('DOMContentLoaded', () => {
         makeElement(main, "main-content", item.projectHeader, item.text, item.imgSrc, item.projektLink);
     });
 
+
+//<-------------------Section Observer----------------------->
     let options = {
         root: null,
         rootMargin: '0px',

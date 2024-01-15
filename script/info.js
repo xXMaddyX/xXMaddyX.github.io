@@ -3,11 +3,13 @@ import { infoText } from './textStore.js'
 const fotoContainerFoto = document.querySelector('.picture');
 const fotoContainerText = document.querySelector('.info');
 
+//<---------------------Photo Animation-------------------->
 const flipFoto = () => {
     const foto = document.querySelector('.info-foto');
     foto.classList.add("active");
 };
 
+//<---------------------Text&Photo Container--------------->
 const createPictureContainer = (fotoLink, fotoHeading, fotoText) => {
     const picture = document.createElement('img');
     picture.classList.add('info-foto');
@@ -24,7 +26,7 @@ const createPictureContainer = (fotoLink, fotoHeading, fotoText) => {
         fotoContainerText.appendChild(infoText);
     });
 };
-
+//<-------------------Cube Animation----------------------->
 const startCube = () => {
     const activeCube = document.querySelector(".cube1")
     
@@ -49,6 +51,7 @@ const startCube = () => {
     })
 }
 
+//<------------------------Main Function------------------->
 const main = () => {
     createPictureContainer(infoText.fotoSection.fotoLink, infoText.fotoSection.fotoHeading, infoText.fotoSection.fotoText);
 

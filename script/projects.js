@@ -50,8 +50,6 @@ document.addEventListener('DOMContentLoaded', () => {
         textContainer.appendChild(link);
         subContainer.appendChild(img);
         
-
-    
         container.appendChild(textContainer);
         container.appendChild(subContainer);
         selectedElement.appendChild(container);
@@ -60,7 +58,6 @@ document.addEventListener('DOMContentLoaded', () => {
     textData.forEach(item => {
         makeElement(main, "main-content", item.projectHeader, item.text, item.imgSrc, item.projektLink);
     });
-
 
 //<-------------------Section Observer----------------------->
     let options = {

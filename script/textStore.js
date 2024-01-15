@@ -28,7 +28,7 @@ export const textData = [
     text: "Eine Bogensport Datenbank für Bögen und Pfeile (Work in Progress)",
     imgSrc: "https://lh3.googleusercontent.com/pw/ABLVV85qN3ka2y_Ca4tnMpv3fF5fqiVI98dmt1SbF4FU4HH8j5ZFM1wq_KPWJN1-rFt05UjjbXAJXKgT6XftNGOAnGYEsKU-k9jIK-LaOZIOAlNqXz7ZQ2zVtpWilHhv6Q202ycWkVtmGUJYTCYALMNjKxX3=w973-h577-s-no-gm?authuser=0",
     projektLink: "https://github.com/xXMaddyX/FreelanceDatabase"},
-    
+
     {projectHeader: "Piep´s MusicPlayer",
     text: "Ein Kleiner Desktop MP3 Player mit Electron,Vue, HTML, CSS und JS erstellt.",
     imgSrc: "https://lh3.googleusercontent.com/pw/ABLVV868R8DGyxdG3vjjf2dF5K_ZR3v9i9jeClJtKLTqTexD0lVkl2UQTa6FmTg1GZ1zX8Qc5Tr3UHIC4wSreqc8tQe700PLFiyJpDIjx84WvwUrnn1ZZZUUr_Jh1oPthmUGzeHIO2t4LkisTZl4W8t0QH1g=w598-h412-s-no-gm?authuser=0",
@@ -38,8 +38,6 @@ export const textData = [
     text: "Eine kleine WetterApp erstellt mit Electron.js",
     imgSrc: "https://lh3.googleusercontent.com/pw/ABLVV86R3skEPLRNPUmjnilIjtIMBtNL3IzcRXi2vlR-EZEPfHVO0R9GrYQ34PnmeuRk3OavWZQbVhqvWIzYq2d0Ghn9XCuPcsCF_EtdS0J8QRAdjdElzYEDHHUIJCStuHybCw74IbveVRWpPntyO2sMuMcn=w598-h481-s-no-gm?authuser=0",
     projektLink: "https://github.com/xXMaddyX/WetterappForElectron"},
-
-
 ]
 
 export const infoText = {

@@ -67,6 +67,9 @@
 .tech-heading-item:nth-child(7) {animation-delay: 4s;}
 .tech-heading-item:nth-child(8) {animation-delay: 4.5s;}
 .tech-heading-item:nth-child(9) {animation-delay: 5s;}
+.tech-heading-item:nth-child(10) {animation-delay: 5.5s;}
+.tech-heading-item:nth-child(11) {animation-delay: 6s;}
+.tech-heading-item:nth-child(12) {animation-delay: 6.5s;}
 
 .philosophie-text {
     display: flex;

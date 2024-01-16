@@ -1,0 +1,22 @@
+export const mainText = [
+    {heading: "Definition und Typ:",
+    text: "Die Sonne ist ein Stern, der sich im Zentrum unseres Sonnensystems befindet. Sie gehört zum Typ der G-Sterne, genauer gesagt ist sie ein G2V-Stern, was bedeutet, dass sie eine gelbliche Farbe hat und zur Hauptreihe gehört."},
+    {heading: "Alter und Lebensdauer:",
+    text: "Die Sonne ist etwa 4,6 Milliarden Jahre alt und hat damit etwa die Hälfte ihrer erwarteten Lebensdauer erreicht. Sie wird voraussichtlich noch etwa 5 Milliarden Jahre existieren, bevor sie sich zu einem Roten Riesen entwickelt und dann in einen Weißen Zwerg übergeht."},
+    {heading: "Grösse und Masse:",
+    text: "Die Sonne hat einen Durchmesser von etwa 1,4 Millionen Kilometern und eine Masse, die etwa 330.000 Mal größer ist als die der Erde. Sie enthält mehr als 99,8% der gesamten Masse unseres Sonnensystems."},
+    {heading: "Zusammenfassung:",
+    text: "Die Sonne besteht hauptsächlich aus Wasserstoff (etwa 75%) und Helium (etwa 23%). Die restlichen 2% setzen sich aus schwereren Elementen wie Sauerstoff, Kohlenstoff, Neon und Eisen zusammen."},
+    {heading: "Energieerzeugung:",
+    text: "Die Energie der Sonne wird durch Kernfusion in ihrem Kern erzeugt, wo Wasserstoff zu Helium verschmilzt. Diese Fusion setzt enorme Energiemengen frei, die als Licht und Wärme zur Erde gelangen."},
+    {heading: "Oberfläche und Atmosphäre:",
+    text: "Die sichtbare Oberfläche der Sonne wird als Photosphäre bezeichnet und hat eine Temperatur von etwa 5.500 Grad Celsius. Über der Photosphäre liegen die Chromosphäre und die Korona, die äußeren Schichten der Sonnenatmosphäre, die während einer Sonnenfinsternis sichtbar sind."},
+    {heading: "Sonnenaktivität:",
+    text: "Die Sonne zeigt verschiedene Arten von Aktivitäten wie Sonnenflecken, Sonneneruptionen und Sonnenwinde. Sonnenflecken sind kühle Bereiche auf der Sonnenoberfläche, die durch magnetische Aktivitäten verursacht werden. Sonneneruptionen sind gewaltige Explosionen, die hochenergetische Partikel ins All schleudern. Der Sonnenwind, ein Strom geladener Teilchen, strömt kontinuierlich von der Sonne weg und beeinflusst das gesamte Sonnensystem."},
+    {heading: "Bedeutung für die Erde:",
+    text: "Die Sonne ist für das Leben auf der Erde von entscheidender Bedeutung. Sie liefert die Energie, die notwendig ist, um das Klima zu regulieren, ermöglicht Photosynthese in Pflanzen und beeinflusst zahlreiche Wetter- und Klimaprozesse."},
+    {heading: "Erforschung:",
+    text: "Die Sonne ist seit Jahrhunderten Gegenstand wissenschaftlicher Forschung. In jüngerer Zeit haben Missionen wie die Solar Dynamics Observatory (SDO) und die Parker Solar Probe detaillierte Einblicke in die Sonnenphysik und das Verhalten des Sonnenwinds geliefert."},
+    {heading: "Astronomische Bedeutung:",
+    text: "Astronomisch gesehen ist die Sonne ein vergleichsweise durchschnittlicher Stern, bietet aber einzigartige Möglichkeiten für das Studium stellaren Verhaltens und astrophysikalischer Phänomene aus nächster Nähe."}
+]

@@ -66,15 +66,15 @@ svg {
 
 @media (max-width: 450px) {
     .circle1 {
-        height: 250px;
-        width: 250px;
+        height: 320px;
+        width: 320px;
     }
     .circle2 {
-        height: 250px;
-        width: 250px;
+        height: 320px;
+        width: 320px;
     }
     .circle3 {
-        height: 230px;
-        width: 230px;
+        height: 300px;
+        width: 300px;
     }
 }

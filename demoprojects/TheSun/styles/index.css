@@ -103,16 +103,16 @@ svg {
 
 @media (max-width: 450px) {
     .circle1 {
-        height: 320px;
+        height: 350px;
         width: 320px;
     }
     .circle2 {
-        height: 320px;
+        height: 350px;
         width: 320px;
     }
     .circle3 {
-        height: 300px;
-        width: 300px;
+        height: 330px;
+        width: 330px;
     }
     .opening {
         margin-left: 5%;

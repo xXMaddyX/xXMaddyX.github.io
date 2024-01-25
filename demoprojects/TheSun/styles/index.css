@@ -103,11 +103,11 @@ svg {
 
 @media (max-width: 450px) {
     .circle1 {
-        height: 350px;
+        height: 320px;
         width: 320px;
     }
     .circle2 {
-        height: 350px;
+        height: 320px;
         width: 320px;
     }
     .circle3 {

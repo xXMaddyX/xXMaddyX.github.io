@@ -48,7 +48,7 @@
     padding: 50px;
     background: radial-gradient(circle, rgba(208,208,208,1) 0%, rgba(105, 105, 105, 0.377) 100%);
     box-shadow: var(--boxShadow);
-    border-radius: 83% 17% 81% 19% / 21% 80% 20% 79%;
+    border-radius: 10px;
 }
 
 .main-content-sub img {

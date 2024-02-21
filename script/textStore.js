@@ -3,6 +3,11 @@ export const textData = [
     text: "Kunden Projekt von BibelGame.de",
     imgSrc: "https://lh3.googleusercontent.com/pw/ABLVV87jhBlsqDmcQxHI6AEMhjd5Jf5I7UKTXd_uHAqw9P6fWYEPPw4BtMwH0SXCD0pP7bcdfLf2AZdGLFYTb8Cz8LsYcqnhqzqv8oO0y7B8d3tqBxCq5ApPtFMz0rLjh5Yu6cPc98XqLG5TKuj2XCZ1L0hV=w918-h761-s-no-gm?authuser=0",
     projektLink: "https://www.bibelgame.de/"},
+    
+    {projectHeader: "BibelGame Webseite",
+    text: "Kunden Projekt von BibelGame.de",
+    imgSrc: "https://lh3.googleusercontent.com/pw/ABLVV87jhBlsqDmcQxHI6AEMhjd5Jf5I7UKTXd_uHAqw9P6fWYEPPw4BtMwH0SXCD0pP7bcdfLf2AZdGLFYTb8Cz8LsYcqnhqzqv8oO0y7B8d3tqBxCq5ApPtFMz0rLjh5Yu6cPc98XqLG5TKuj2XCZ1L0hV=w918-h761-s-no-gm?authuser=0",
+    projektLink: "https://www.bibelgame.de/"},
 
     {projectHeader: "Piep´s ChatRoom",
     text: "Eine kleine WetterApp erstellt mit Electron.js",
